@@ -103,7 +103,7 @@ export const BentoGridItem = ({
                     )}
                 </div>
                 <div
-                    className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"
+                    className={`absolute left-0 -bottom-5 ${id === 5 && "w-full opacity-80"
                         }`}
                 >
                     {spareImg && (
@@ -112,7 +112,6 @@ export const BentoGridItem = ({
                             height={300}
                             src={spareImg}
                             alt={spareImg}
-                            //   width={220}
                             className="object-cover object-center w-full h-full"
                         />
                     )}
@@ -147,7 +146,7 @@ export const BentoGridItem = ({
 
                     {/* Tech stack list div */}
                     {id === 3 && (
-                        <div className="flex gap-1 lg:gap-5 w-fit absolute -left-3 lg:-right-2">
+                        <div className="flex gap-1 lg:gap-5 w-fit absolute -left-3 lg:-left-2">
                             {/* tech stack lists */}
                             <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                                 {leftLists.map((item, i) => (
