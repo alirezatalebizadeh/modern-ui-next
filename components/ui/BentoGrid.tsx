@@ -1,6 +1,8 @@
 "use client"
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
+import { FaCheck } from "react-icons/fa";
+
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
@@ -185,8 +187,8 @@ export const BentoGridItem = ({
                             </div>
 
                             <MagicButton
-                                title={copied ? "Email is Copied!" : "Copy my email address"}
-                                icon={<IoCopyOutline />}
+                                title={copied ? "ایمیل کپی شد" : "ایمیل منو کپی کن"}
+                                icon={!copied ? <IoCopyOutline /> : <FaCheck />}
                                 position="left"
                                 handleClick={handleCopy}
                                 otherClasses="!bg-[#161A31]"
