@@ -83,7 +83,7 @@ export const projects = [
   {
     id: 2,
     title: "سایت بازی با کلی ویدیو بک گراند زیبا",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "دارای انیمیشن ها ی جذاب حین اسکرول و ویدیو در بک گراندها ...",
     img: "/game.PNG",
     iconLists: ["/re.svg", "/tail.svg"],
     link: "https://game-web-alireza.vercel.app/",

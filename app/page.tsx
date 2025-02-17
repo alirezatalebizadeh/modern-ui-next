@@ -1,5 +1,6 @@
 import { Hero, Grid, RecentProject } from "@/components"
 import Clients from "@/components/Clients";
+import Experience from "@/components/Experience";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 
