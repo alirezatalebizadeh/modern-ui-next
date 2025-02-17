@@ -1,4 +1,5 @@
 export const navItems = [
+  { name: "صفحه اصلی", link: "#home" },
   { name: "درباره ما", link: "#about" },
   { name: "پروژه ها", link: "#projects" },
   { name: "رضایت شما", link: "#testimonials" },
@@ -73,70 +74,71 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "تولیدکننده بلاگ با هوش مصنوعی ",
+    des: "توسعه داده شده با Next ,Tailwind , CkEditor ,...",
+    img: "/Blog.PNG",
+    iconLists: ["/tail.svg", "/next.svg"],
+    link: "https://blog-generator-next.vercel.app/dashboard",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
+    title: "سایت بازی با کلی ویدیو بک گراند زیبا",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    img: "/game.PNG",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://game-web-alireza.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "توسعه دیزاین مدرن با vite ",
+    des: "تکنولوژی های به کار رفته Vite , Tailwind  ",
+    img: "/modern.PNG",
+    iconLists: ["/re.svg", "/tail.svg", "/next.svg"],
+    link: "https://modern-ui-vite.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "طراحی لندینگ واکنش گرا",
+    des: "توسعه با React , Vite , Tailwind , React-scroll",
+    img: "/Landing.PNG",
+    iconLists: ["/next.svg", "/tail.svg"],
+    link: "https://saas-landing-nu.vercel.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "همکاری با آقای طالبی زاده فوق‌العاده بود. حرفه‌ای، وقت‌شناس و متعهد به ارائه‌ی بهترین نتیجه. از اولین مرحله‌ی کار تا تحویل پروژه، دقت و تخصص ایشون مثال‌زدنی بود. اگر به دنبال یه توسعه‌دهنده‌ی کاربلد برای بهبود وب‌سایت و برندتون هستید، آقای طالبی زاده انتخاب مناسبیه.",
+    name: "محمد رضایی",
+    title: "مدیرعامل شرکت آلفا تک",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "واقعا از همکاری با آقای طالبی زاده لذت بردم. کارش عالیه، به‌موقع تحویل می‌ده و همیشه بهترین پیشنهادها رو ارائه می‌کنه. خیلی خوشحالم که باهاش کار کردم و پیشنهادش می‌کنم.",
+    name: "سمیرا مرادی",
+    title: "مدیر بازاریابی دیجیتال",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "یه برنامه‌نویس دقیق، باحوصله و حرفه‌ای که همیشه فراتر از انتظار کار رو تحویل می‌ده. همکاری با آقای طالبی زاده یکی از بهترین تجربه‌های من توی این حوزه بود.",
+    name: "علی کریمی",
+    title: "بنیان‌گذار استارتاپ نکست‌وب",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "یه همکاری عالی و بدون دردسر! آقای طالبی زاده همیشه راهکارهای خلاقانه‌ای ارائه می‌ده و کاملا به جزئیات توجه داره. هر پروژه‌ای رو که بهش سپردیم، بی‌نقص انجام داده.",
+    name: "نگار امینی",
+    title: "مدیر فنی شرکت ویستا",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "اگه دنبال یه برنامه‌نویس ماهر، مسئولیت‌پذیر و خوش‌قول هستید، آقای طالبی زاده بهترین گزینه‌ست. فوق‌العاده راضی‌ام و قطعا باز هم باهاش همکاری می‌کنم.",
+    name: "رضا احمدی",
+    title: "طراح محصول در شرکت آینده‌سازان",
   },
 ];
+
 
 export const companies = [
   {

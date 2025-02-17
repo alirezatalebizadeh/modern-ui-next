@@ -28,7 +28,7 @@ function Hero() {
                         />
 
                         <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                            .یه برنامه نویس Next سلام. من علیرضام
+                            سلام.علیرضام. برنامه نویس React😉
                         </p>
                         <a href="#about">
                             <MagicButton title="نمایش نمونه کارها" icon={<FaLocationArrow />} />

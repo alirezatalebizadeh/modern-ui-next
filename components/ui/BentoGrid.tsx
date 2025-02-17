@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 import { FaCheck } from "react-icons/fa";
-import  Image  from "next/image";
+import Image from "next/image";
 
 
 // Also install this npm i --save-dev @types/react-lottie
@@ -82,14 +82,13 @@ export const BentoGridItem = ({
                 className
             )}
             style={{
-                //   add these two
-                //   you can generate the color from here https://cssgradient.io/
+                // !  تولید با  https://cssgradient.io/
                 background: "rgb(4,7,29)",
                 backgroundColor:
                     "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
             }}
         >
-            {/* add img divs */}
+            {/* //! add design */}
             <div className={`${id === 6 && "flex justify-center"} h-full`}>
                 <div className="w-full h-full absolute">
                     {img && (
@@ -117,7 +116,7 @@ export const BentoGridItem = ({
                     )}
                 </div>
                 {id === 6 && (
-                    // add background animation , remove the p tag
+                    //! add background animation , remove the p tag
                     <BackgroundGradientAnimation>
                         <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
                     </BackgroundGradientAnimation>
