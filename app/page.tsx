@@ -1,5 +1,4 @@
-import Grid from "@/components/Grid";
-import Hero from "@/components/Hero";
+import { Hero, Grid, RecentProject } from "@/components"
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { FaHome } from "react-icons/fa";
 
@@ -12,6 +11,7 @@ export default function Home() {
           { name: "صفحه اصلی", link: "/", icon: <FaHome /> }]} />
         <Hero />
         <Grid />
+        <RecentProject />
       </div>
     </main>
   );
